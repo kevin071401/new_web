@@ -69,27 +69,27 @@ if( mysqli_num_rows($query) < 1 ){
             <label for="semester">Semester: </label>
             <?php $semester = $siswa['semester']; ?>
             <select name="semester">
-                <option <?php echo ($$semester == 'Semester 1') ? "selected": "" ?>>Semester 1</option>
-                <option <?php echo ($$semester == 'Semester 2') ? "selected": "" ?>>Semester 2</option>
-                <option <?php echo ($$semester == 'Semester 3') ? "selected": "" ?>>Semester 3</option>
-                <option <?php echo ($$semester == 'Semester 4') ? "selected": "" ?>>Semester 4</option>
-                <option <?php echo ($$semester == 'Semester 5') ? "selected": "" ?>>Semester 5</option>
-                <option <?php echo ($$semester == 'Semester 6') ? "selected": "" ?>>Semester 6</option>
-                <option <?php echo ($$semester == 'Semester 7') ? "selected": "" ?>>Semester 7</option>
-                <option <?php echo ($$semester == 'Semester 8') ? "selected": "" ?>>Semester 8</option>
-                <option <?php echo ($$semester == 'Semester 9') ? "selected": "" ?>>Semester 9</option>
-                <option <?php echo ($$semester == 'Semester 10') ? "selected": "" ?>>Semester 10</option>
-                <option <?php echo ($$semester == 'Semester 11') ? "selected": "" ?>>Semester 11</option>
-                <option <?php echo ($$semester == 'Semester 12') ? "selected": "" ?>>Semester 12</option>
-                <option <?php echo ($$semester == 'Semester 13') ? "selected": "" ?>>Semester 13</option>
-                <option <?php echo ($$semester == 'Semester 14') ? "selected": "" ?>>Semester 14</option>
-                <option <?php echo ($$semester == 'Semester 15') ? "selected": "" ?>>Semester 15</option>
-                <option <?php echo ($$semester == 'Semester 16') ? "selected": "" ?>>Semester 16</option>
-                <option <?php echo ($$semester == 'Semester 17') ? "selected": "" ?>>Semester 17</option>
-                <option <?php echo ($$semester == 'Semester 18') ? "selected": "" ?>>Semester 18</option>
-                <option <?php echo ($$semester == 'Semester 19') ? "selected": "" ?>>Semester 19</option>
-                <option <?php echo ($$semester == 'Semester 20') ? "selected": "" ?>>Semester 20</option>
-                <option <?php echo ($$semester == 'Lebih Dari 20') ? "selected": "" ?>>Lebih Dari 20</option>
+                <option <?php echo ($semester == 'Semester 1') ? "selected": "" ?>>Semester 1</option>
+                <option <?php echo ($semester == 'Semester 2') ? "selected": "" ?>>Semester 2</option>
+                <option <?php echo ($semester == 'Semester 3') ? "selected": "" ?>>Semester 3</option>
+                <option <?php echo ($semester == 'Semester 4') ? "selected": "" ?>>Semester 4</option>
+                <option <?php echo ($semester == 'Semester 5') ? "selected": "" ?>>Semester 5</option>
+                <option <?php echo ($semester == 'Semester 6') ? "selected": "" ?>>Semester 6</option>
+                <option <?php echo ($semester == 'Semester 7') ? "selected": "" ?>>Semester 7</option>
+                <option <?php echo ($semester == 'Semester 8') ? "selected": "" ?>>Semester 8</option>
+                <option <?php echo ($semester == 'Semester 9') ? "selected": "" ?>>Semester 9</option>
+                <option <?php echo ($semester == 'Semester 10') ? "selected": "" ?>>Semester 10</option>
+                <option <?php echo ($semester == 'Semester 11') ? "selected": "" ?>>Semester 11</option>
+                <option <?php echo ($semester == 'Semester 12') ? "selected": "" ?>>Semester 12</option>
+                <option <?php echo ($semester == 'Semester 13') ? "selected": "" ?>>Semester 13</option>
+                <option <?php echo ($semester == 'Semester 14') ? "selected": "" ?>>Semester 14</option>
+                <option <?php echo ($semester == 'Semester 15') ? "selected": "" ?>>Semester 15</option>
+                <option <?php echo ($semester == 'Semester 16') ? "selected": "" ?>>Semester 16</option>
+                <option <?php echo ($semester == 'Semester 17') ? "selected": "" ?>>Semester 17</option>
+                <option <?php echo ($semester == 'Semester 18') ? "selected": "" ?>>Semester 18</option>
+                <option <?php echo ($semester == 'Semester 19') ? "selected": "" ?>>Semester 19</option>
+                <option <?php echo ($semester == 'Semester 20') ? "selected": "" ?>>Semester 20</option>
+                <option <?php echo ($semester == 'Lebih Dari 20') ? "selected": "" ?>>Lebih Dari 20</option>
             </select>
         </p>
         <p>
